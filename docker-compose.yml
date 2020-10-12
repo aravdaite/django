@@ -10,3 +10,7 @@ services:
       - ./app:/app
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
+
+# run in terminal:
+# docker-compose build
+# docker-compose run app sh -c "django-admin.py startproject app ."
