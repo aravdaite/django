@@ -1,7 +1,8 @@
 
 # set up some tests
 # run: docker-compose run app sh -c "python manage.py test && flake8"
-# to create core folder, run: docker-compose run app sh -c "python manage.py startapp core"
+# to create core folder
+# run: docker-compose run app sh -c "python manage.py startapp core"
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 
